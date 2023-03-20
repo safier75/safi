@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/saf', function () {
-    return view('saf.home');
+Route::get('/getstarted', function () {
+    return view('safier.getstarted');
 });
 Route::get('/', function () {
     return view('safier.app');
