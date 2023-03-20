@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/about', function () {
+Route::get('/saf', function () {
     return view('saf.home');
 });
-Route::get('/about', function () {
+Route::get('/', function () {
     return view('safier.app');
 });
