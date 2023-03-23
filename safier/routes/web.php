@@ -17,5 +17,5 @@ Route::get('/getstarted', function () {
     return view('safier.getstarted');
 });
 Route::get('/', function () {
-    return view('safier.app');
+    return view('saf.home');
 });

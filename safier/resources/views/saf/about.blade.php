@@ -1,5 +1,3 @@
-@extends('saf.layout')
-@section('containt')
 <main id="main">
 <!-- ======= About Section ======= -->
  <section id="about" class="about">
@@ -27,5 +25,4 @@
 
       </div>
     </section><!-- End About Section -->
-    </main><!-- End #main -->
-@endsection
+    
